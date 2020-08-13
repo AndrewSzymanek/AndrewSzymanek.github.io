@@ -1,3 +1,15 @@
-h1 {
-  color: teal;
+#logo {
+  height: 18vh;
+}
+
+@media only screen and (max-width: 400px) {
+  #logo {
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #logo {
+    height: 15vh;
+  }
 }
