@@ -10,6 +10,10 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -38,19 +42,34 @@
         </div>
       </div>
     </nav>
-    <h1>About Andrew Szymanek</h1>
-    <figure class="figure">
-      <img
-        class="img img-responsive"
-        src="assets/headshot.jpg"
-        class="figure-img img-fluid rounded"
-        alt="Headshot"
-      />
-      <figcaption class="figure-caption">
-        Andrew Szymanek is currently a Software Developer Engineer Apprentice at
-        Amazon Web Services.
-      </figcaption>
-    </figure>
+    <div class="row">
+      <div class="column" id="headshot-figure">
+        <h1>About Andrew Szymanek</h1>
+        <figure class="figure">
+          <img
+            src="assets/headshot.jpg"
+            class="figure-img img-fluid rounded"
+            alt="Headshot"
+          />
+          <figcaption class="figure-caption">
+            Andrew Szymanek is currently a Software Developer Engineer
+            Apprentice at Amazon Web Services.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" id="about-me-paragraph">
+        <p>
+          Keelhaul cable gun gangplank draught American Main wench haul wind
+          warp gaff. Carouser prow cackle fruit Barbary Coast Sea Legs loaded to
+          the gunwalls flogging case shot avast galleon. Barkadeer lanyard spike
+          weigh anchor code of conduct deadlights keelhaul parrel transom draft.
+          Six pounders chase ho blow the man down cog overhaul hang the jib
+          pressgang to go on account cable. Ho square-rigged rope's end
+          barkadeer grog parrel reef provost tackle brigantine.
+        </p>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 #logo {
   height: 18vh;
 }
@@ -13,3 +17,30 @@
     height: 15vh;
   }
 }
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.figure-img .img-fluid .rounded {
+  max-width: 100%;
+  height: auto;
+}
+
+/* stuff I've tried to fix figure:
+.figure-img .img-fluid .rounded {
+  max-width: 100%;
+  height: auto;
+}
+
+making margin-right and padding-right 0px for column and figure
