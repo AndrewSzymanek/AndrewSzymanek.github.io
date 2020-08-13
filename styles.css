@@ -18,6 +18,24 @@ body {
   }
 }
 
+
+
+/* stuff I've tried to fix figure:
+.figure-img .img-fluid .rounded {
+  max-width: 100%;
+  height: auto;
+}
+
+making margin-right and padding-right 0px for column and figure
+
+#headshot-figure{
+    margin: 0;
+}
+#figure-override {
+    margin: 0;
+}
+
+here is what I had before changing to Bootstrap columns
 .row {
   display: flex;
   width: 100%;
@@ -37,10 +55,6 @@ body {
   height: auto;
 }
 
-/* stuff I've tried to fix figure:
-.figure-img .img-fluid .rounded {
-  max-width: 100%;
-  height: auto;
+.figure-caption{
+    margin: 0;
 }
-
-making margin-right and padding-right 0px for column and figure
