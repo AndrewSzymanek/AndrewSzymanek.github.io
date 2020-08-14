@@ -53,11 +53,16 @@ img.img-fluid.homepage-image {
 }
 #figure-right-column {
   margin: 10px 10px;
+  display: flex;
 }
 .ul-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10px;
+}
+
+.my-icons {
+  font-size: 100px;
 }
 
 #contact-h1 {
