@@ -2,8 +2,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-footer{
-    text-align: center;
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  float: none;
+  align-content: center;
+}
+
+#navbarNavAltMarkup {
+  font-size: 2.75vh;
 }
 
 #logo {
@@ -22,46 +36,31 @@ footer{
   }
 }
 
-#about-me-paragraph{
-    
+img.img-fluid.homepage-image {
+  box-shadow: 10px 10px 5px grey;
+}
+#about-me {
+  text-align: center;
 }
 
-
-/* stuff I've tried to fix figure:
-.figure-img .img-fluid .rounded {
-  max-width: 100%;
-  height: auto;
-}
-
-making margin-right and padding-right 0px for column and figure
-
-#headshot-figure{
-    margin: 0;
-}
-#figure-override {
-    margin: 0;
-}
-
-here is what I had before changing to Bootstrap columns
-.row {
+#paragraph-container {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+#figure-left-column {
+  margin: 10px 0 0 10px;
+}
+#figure-right-column {
+  margin: 10px 10px;
+}
+.ul-links {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
-.column {
-  flex: 50%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.figure-img .img-fluid .rounded {
-  max-width: 100%;
-  height: auto;
-}
-
-.figure-caption{
-    margin: 0;
+#contact-h1 {
+  text-align: center;
+  margin: 10px;
 }
